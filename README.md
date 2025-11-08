@@ -62,11 +62,12 @@ List files in the current directory:
 wolf "list all python files in the current directory"
 
 Analyze an image:
+(ONLY IF THE OLLAMA MODEL RUNNING CAPABLE OF VISION)
 
 wolf --image screenshot.png "what's in this image?"
 
 Create a file:
-
+(ANY OLLAMA MODEL)
 wolf --auto "create a file named test.txt with the content 'hello world'"
 Configuration
 Wolf CLI stores its configuration and logs in a .wolf directory in your home folder.
